@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.encabezado{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #3259a7 45%, #5636f4 100%, #305bac 10%, #345ca7 10%);
+    color: #a8a5a5;
+    border-radius: 0 0 25px 25px;
+    max-width: 568px;
+}
+
+.sumario{
+    width: 92%;
+    font-size: 1rem;
+    margin: 18px 0 18px 6px;
+    font-weight: bold;
+}
+
+.resultadoFinal{
+    width: 100%;
+    max-width: 568px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.tuEscor{
+    font-size: 1rem;
+    color: #a8a5a5;
+    margin: 20px;
+    flex: 0;
+}
+
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+    background-image: linear-gradient(to top, #1248b3 1%, #2407b9 100%, #335799 10%, #334e82 10%);
+    margin: 0px 0 20px 0;
+}
+
+.resultadoCirculo{
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.resultadoEntero{
+    font-size: 0.7rem;
+    color: #a8a5a5;
+}
+
+.reconocimiento{
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+.parrafo{
+    width: 80%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0px 0 30px;
+}
+
+
+.resultado{
+    font-size: 0.8rem;
+    font-weight: bold;
+    align-items: flex-end;
+    color: #000;
+    
+}
+
+.deCien{
+    color: #a8a5a5;
+}
+
+.items{
+    font-size: 0.8rem;
+}
+
+.reactionC{
+    width: 92%;
+    color: #f55;
+    background-color: #f8dfe3dd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px 14px 0px;
+    border-radius: 10px;
+    box-shadow: -0.6px 0px 0.1px -0.1px inset rgb(196, 195, 195),
+    1.5px 0px 0px -1px inset rgb(196, 195, 195);
+}
+
+.reaction svg{
+    margin-right: 10px;
+    width: 20px;
+    height: 18px;
+    margin-bottom: -5px;
+}
+
+.resultadoFinal h2{
+   font-weight: normal;    
+}
+
+.memoryC{
+    width: 92%;
+    color: #ffb21e;
+    background-color: #fceef0e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px 14px 16px;
+    margin-top: 12px;
+    border-radius: 10px;
+    box-shadow: -0.6px 0px 0.1px -0.1px inset rgb(196, 195, 195),
+    1.5px 0px 0px -1px inset rgb(196, 195, 195);
+}
+
+.memory svg{
+    margin-right: 10px;
+    width: 20px;
+    height: 18px;
+    margin-bottom: -5px;
+}
+
+.verbalC{
+    width: 92%;
+    color: #00BB8F;
+    background-color: #f1f7f7d1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px 14px 16px;
+    margin-top: 12px;
+    border-radius: 10px;
+    box-shadow: -0.6px 0px 0.1px -0.1px inset rgb(196, 195, 195),
+    1.5px 0px 0px -1px inset rgb(196, 195, 195);
+}
+
+.verbal svg{
+    margin-right: 10px;
+    width: 20px;
+    height: 18px;
+    margin-bottom: -5px;
+}
+
+.visualC{
+    width: 92%;
+    color: #00BB8F;
+    background-color: #dadfe09a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px 14px 16px;
+    margin-top: 12px;
+    border-radius: 10px;
+    box-shadow: -0.6px 0px 0.1px -0.1px inset rgb(196, 195, 195),
+    1.5px 0px 0px -1px inset rgb(196, 195, 195);
+}
+
+.visual svg{
+    margin-right: 10px;
+    width: 22px;
+    height: 18px;
+    margin-bottom: -5px;
+}
+
+.boton{
+    width: 92%;
+    color: #fff;
+    font-size: 0.8rem;
+    background-color: #042057;
+    border: none;
+    border-radius: 40px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 769px){
+
+    .contenedor{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 100px auto;
+        box-shadow: 1px 1px 30px 0px rgba(88, 213, 235, 0.2);
+        width: 60vw;
+        height: 60vh;
+        border-radius: 16px;
+    }
+
+    .encabezado{
+        width: 50%;
+        height: 60vh;
+        border-radius: 16px;
+        
+    }
+
+    .resultadoFinal{
+        width: 50%;
+        height: 60vh;
+        margin-left: 20px;
+        
+    }
+
+    .memoryC, .visualC, .verbalC, .reactionC{
+        padding: 9px 12px 9px 12px;
+    }
+
+    .sumario{
+        margin: 8px 10px 8px 24px;
+    }
+
+    .boton{
+        margin: 18px 0 8px 0;
+    }
+
+    .boton:hover{
+        background-image: linear-gradient(to top, #3259a7 45%, #5636f4 100%, #305bac 10%, #345ca7 10%);
+        cursor:pointer;
+    }
+
+
+}
+
+
